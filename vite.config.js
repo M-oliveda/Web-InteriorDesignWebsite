@@ -6,7 +6,8 @@ export default defineConfig(({ mode }) => {
     root: "web/src",
     publicDir: "../public",
     server: {
-      port: env.VITE_DEV_PORT | 5000,
+      host: "localhost",
+      port: env.VITE_DEV_PORT || 8800,
     },
   };
 });

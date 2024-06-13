@@ -14,5 +14,50 @@
     <link rel="stylesheet" href="./styles/styles.scss" lang="sass" />
     <title>Web Development Project - Interior Design</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav
+        class="navbar is-spaced"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+              <img
+                src="/assets/img/logo_dark.svg"
+                alt="Website logo, dark style."
+              />
+            </a>
+            <a
+              class="navbar-burger"
+              role="button"
+              aria-label="menu"
+              aria-expanded="false"
+              id="navbarBurger"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-end">
+              <a href="/" class="navbar-item">Home</a>
+              <a href="#" class="navbar-item">About</a>
+              <a href="#" class="navbar-item">Services</a>
+              <a href="#" class="navbar-item">Process</a>
+              <a href="#" class="navbar-item">Portfolio</a>
+              <a href="#" class="navbar-item">Blog</a>
+              <div class="navbar-item">
+                <button class="button is-primary is-outlined">Contact</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <script src="./js/main.js" type="module"></script>
+  </body>
 </html>
