@@ -19,6 +19,7 @@ $body-color: #414840;
 @forward "bulma/sass/helpers/flexbox";
 @forward "bulma/sass/elements/icon";
 @forward "bulma/sass/helpers/spacing";
+@forward "bulma/sass/helpers/color";
 
 // Custom SASS styles:
 @forward "./generic";
