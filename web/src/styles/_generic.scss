@@ -1,0 +1,11 @@
+@for $i from 1 through 6 {
+  .has-flex-gap-#{$i} {
+    gap: #{calc($i * 0.5)}em;
+  }
+}
+
+@for $i from 1 through 6 {
+  .has-flex-order-#{$i} {
+    order: #{calc($i * 0.5)}em;
+  }
+}
