@@ -1,0 +1,9 @@
+.website-features {
+  article {
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+      margin: 0;
+    }
+  }
+}
