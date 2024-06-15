@@ -1,0 +1,36 @@
+#heroContent {
+  .title {
+    margin: 0 auto;
+
+    @media (min-width: 1024px) {
+      & {
+        margin: 0;
+      }
+    }
+  }
+
+  p {
+    margin: 0 auto;
+
+    @media (min-width: 1024px) {
+      & {
+        margin: 0;
+      }
+    }
+  }
+
+  ul {
+    @media (min-width: 1024px) {
+      & {
+        width: 350px;
+        justify-content: flex-start !important;
+      }
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  #heroImage {
+    order: 1;
+  }
+}

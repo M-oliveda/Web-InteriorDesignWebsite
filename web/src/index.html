@@ -1,0 +1,481 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/assets/img/favicon.ico" sizes="32x32" />
+    <link rel="icon" href="/assets/img/icon.svg" type="image/svg+xml" />
+    <link
+      rel="apple-touch-icon"
+      href="/assets/img/apple-touch-icon.png"
+      sizes="180x180"
+    />
+    <link rel="manifest" href="/assets/img/manifest.webmanifest" />
+    <link rel="stylesheet" href="./styles/styles.scss" lang="sass" />
+    <title>Web Development Project - Interior Design</title>
+  </head>
+  <body>
+    <header>
+      <nav
+        class="navbar is-spaced"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+              <img
+                src="/assets/img/logo_dark.svg"
+                alt="Website logo, dark style."
+              />
+            </a>
+            <a
+              class="navbar-burger has-text-dark"
+              role="button"
+              aria-label="menu"
+              aria-expanded="false"
+              id="navbarBurger"
+            >
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+              <span aria-hidden="true"></span>
+            </a>
+          </div>
+          <div class="navbar-menu" id="navbarMenu">
+            <div class="navbar-end">
+              <a href="/" class="navbar-item">Home</a>
+              <a href="#" class="navbar-item">About</a>
+              <a href="#" class="navbar-item">Services</a>
+              <a href="#" class="navbar-item">Process</a>
+              <a href="#" class="navbar-item">Portfolio</a>
+              <a href="#" class="navbar-item">Blog</a>
+              <div class="navbar-item">
+                <button class="button is-primary is-outlined">Contact</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="section">
+      <div class="container">
+        <div class="breadcrumb" aria-label="breadcrumbs">
+          <ul>
+            <li>
+              <a href="/">
+                <span
+                  class="icon is-small is-align-items-center has-flex-gap-1"
+                >
+                  <img
+                    src="/assets/img/LeftIcon.svg"
+                    alt="Left breadcrumb icon."
+                  />
+                  <img
+                    src="/assets/img/RightIcon.svg"
+                    alt="Right breadcrum icon."
+                  />
+                </span>
+                <span class="ml-2">Home</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div
+          class="columns is-centered is-flex-wrap-wrap is-align-items-center"
+        >
+          <div class="column is-full-touch" id="heroImage">
+            <picture style="display: block; max-width: 95%; margin: 0 auto">
+              <source
+                srcset="/assets/img/HeroImage_md-xl.png"
+                media="(min-width: 768px)"
+              />
+              <img
+                class="image is-3by5"
+                src="/assets/img/HeroImage.png"
+                alt="Hero image."
+              />
+            </picture>
+          </div>
+          <div class="column is-full-touch" id="heroContent">
+            <h1
+              class="title is-size-2-touch is-size-1-desktop has-text-centered-touch has-text-left-desktop"
+              style="max-width: 500px"
+            >
+              Your choice is our first and foremost
+              <span
+                style="
+                  color: #f28f1a;
+                  text-decoration: underline solid currentColor;
+                "
+                >Priority</span
+              >
+            </h1>
+            <p
+              class="subtitle my-2 is-size-6-touch is-size-5-desktop has-text-centered-touch has-text-left-desktop"
+            >
+              The Real Creative Potential
+            </p>
+            <p
+              class="mt-4 is-size-6-touch has-text-centered-touch has-text-left-desktop"
+              style="max-width: 414px"
+            >
+              We are passionate about transforming spaces into beautiful,
+              functional environments you'll love to live in.
+            </p>
+            <ul
+              class="mt-4 is-flex is-justify-content-center is-flex-wrap-wrap has-flex-gap-1"
+            >
+              <li>
+                <div class="icon-text">
+                  <span class="icon">
+                    <img src="/assets/img/TopicsIcon.svg" alt="Topics icon." />
+                  </span>
+                  <span>Consulting</span>
+                </div>
+              </li>
+              <li>
+                <div class="icon-text">
+                  <span class="icon">
+                    <img src="/assets/img/TopicsIcon.svg" alt="Topics icon." />
+                  </span>
+                  <span>Construction</span>
+                </div>
+              </li>
+              <li>
+                <div class="icon-text">
+                  <span class="icon">
+                    <img src="/assets/img/TopicsIcon.svg" alt="Topics icon." />
+                  </span>
+                  <span>Development</span>
+                </div>
+              </li>
+              <li>
+                <div class="icon-text">
+                  <span class="icon">
+                    <img src="/assets/img/TopicsIcon.svg" alt="Topics icon." />
+                  </span>
+                  <span>Concept Design</span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section is-medium">
+      <div
+        class="container is-flex is-flex-direction-column is-align-items-center"
+      >
+        <h2 class="title is-size-2-touch is-size-1-desktop has-text-centered">
+          25+ Years of
+          <span
+            style="
+              color: #f28f1a;
+              text-decoration: underline solid currentColor;
+            "
+            >Experience</span
+          >
+        </h2>
+        <p class="my-6 has-text-centered" style="max-width: 500px">
+          With over a decade of experience in the interior design industry, we
+          have transformed countless homes and businesses into stunning,
+          functional spaces. Our team of expert designers is dedicated to
+          understanding your vision and bringing it to life with creativity,
+          precision, and unparalleled craftsmanship.
+        </p>
+        <img
+          class="image is-3by6"
+          src="/assets/img/AboutUsImage.png"
+          alt="A beautiful living with two dark pink chairs."
+        />
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div
+          class="columns is-flex-wrap-wrap has-flex-gap-3 is-align-items-center is-justify-content-center website-features"
+        >
+          <div class="column is-narrow">
+            <article class="card" style="width: 250px">
+              <div class="card-image">
+                <figure class="image">
+                  <img
+                    src="/assets/img/CardImage_2.png"
+                    alt="Home style image."
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h3 class="has-text-weight-normal">Renovation Ideas</h3>
+                  <p>
+                    Explore creative renovation ideas that transform and elevate
+                    your home, reflecting your personal style.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="column is-narrow">
+            <article class="card" style="width: 250px">
+              <div class="card-image">
+                <figure class="image is3by2">
+                  <img
+                    src="/assets/img/CardImage_1.png"
+                    alt="Home style image."
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h3 class="has-text-weight-normal">Home Decoration</h3>
+                  <p>
+                    2 Past more emotionless this along goodness this sad wow
+                    manatee mongos
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="column is-narrow">
+            <article class="card" style="width: 250px">
+              <div class="card-image">
+                <figure class="image">
+                  <img
+                    src="/assets/img/CardImage_3.png"
+                    alt="Home style image."
+                  />
+                </figure>
+              </div>
+              <div class="card-content">
+                <div class="content">
+                  <h3 class="has-text-weight-normal">Lighting Styles</h3>
+                  <p>
+                    Discover diverse lighting styles that illuminate your
+                    spaces, enhancing ambiance and functionality.
+                  </p>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <p
+          class="is-size-6 is-uppercase has-text-centered"
+          style="color: #f28f1a"
+        >
+          Testimonials
+        </p>
+        <h2
+          class="mb-6 title is-size-2-touch is-size-1-desktop has-text-centered"
+        >
+          What Our Clients Say
+        </h2>
+        <div class="columns is-align-items-center is-justify-content-center">
+          <div class="column is-narrow-desktop">
+            <img
+              src="/assets/img/TestimonialImage.png"
+              alt="A smiling woman sitting at a desk with a pen in her hand."
+              class="image"
+              style="width: 100%; max-width: 400px"
+            />
+          </div>
+          <div class="column is-narrow">
+            <div class="content">
+              <h3
+                class="title is-size-4 has-text-weight-normal has-text-centered has-text-left-tablet"
+              >
+                A Peaceful Oasis for Work and Home Life
+              </h3>
+              <p style="max-width: 380px">
+                "Working with this interior design team was a fantastic
+                experience! They truly understood my vision and transformed my
+                home into a stylish and cozy sanctuary. Highly recommend!”
+              </p>
+              <div class="icon-text is-align-items-center">
+                <span class="icon is-large">
+                  <img
+                    src="/assets/img/Icon_testimonial.svg"
+                    alt="Testimonial arrow icon."
+                  />
+                </span>
+                <div class="is-flex is-flex-direction-column has-flex-gap-1">
+                  <span class="is-size-5 has-text-weight-normal"
+                    >Jessica Thompson</span
+                  >
+                  <span class="has-text-weight-light">Client of Company</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="pt-4" style="background-color: #343d33">
+      <div class="container footer-container">
+        <div class="px-4 mb-6 is-flex is-flex-direction-column has-flex-gap-2">
+          <img
+            src="/assets/img/Logo_light.svg"
+            alt="Logo light version."
+            class="image"
+            style="width: 135px"
+          />
+          <address class="has-text-white" style="max-width: 258px">
+            Interior Design Center Inc. A USA Interior Design Company. Some USA
+            Address.
+          </address>
+          <div>
+            <div class="icon-text mb-2 is-align-items-baseline">
+              <span class="icon is-small">
+                <img
+                  src="/assets/img/telephone-icon.svg"
+                  alt="Telephone icon"
+                />
+              </span>
+              <span>
+                <a href="tel:+1(012)34-000012" class="has-text-white"
+                  >+1(012)34-000012</a
+                >
+              </span>
+            </div>
+            <div class="icon-text is-align-items-baseline">
+              <span class="icon is-small">
+                <img src="/assets/img/mail-icon.svg" alt="Telephone icon" />
+              </span>
+              <span>
+                <a href="mailto:example@example.com" class="has-text-white"
+                  >example@example.com</a
+                >
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 mb-6 is-flex is-flex-direction-column has-flex-gap-2">
+          <p class="is-size-3 pb-0 has-text-white has-text-weight-normal">
+            Menu
+          </p>
+          <ul class="is-flex is-flex-direction-column has-flex-gap-2">
+            <li>
+              <a href="/" class="is-size-6 has-text-white">Home</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">About</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Services</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Process</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="px-4 mb-6 is-flex is-flex-direction-column has-flex-gap-2">
+          <p class="is-size-3 pb-0 has-text-white has-text-weight-normal">
+            Useful Links
+          </p>
+          <ul class="is-flex is-flex-direction-column has-flex-gap-2">
+            <li>
+              <a href="/" class="is-size-6 has-text-white">Home</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">About</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Services</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Process</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Portfolio</a>
+            </li>
+            <li>
+              <a href="#" class="is-size-6 has-text-white">Blog</a>
+            </li>
+          </ul>
+        </div>
+        <div class="px-4 is-flex is-flex-direction-column has-flex-gap-2">
+          <p class="is-size-3 pb-0 has-text-white has-text-weight-normal">
+            Connect Online
+          </p>
+          <div class="is-flex has-flex-gap-2 is-flex-wrap-wrap">
+            <div class="icon is-large">
+              <a href="#">
+                <img src="/assets/img/facebook-icon.svg" alt="Facebook icon." />
+              </a>
+            </div>
+            <div class="icon is-large">
+              <a href="#">
+                <img src="/assets/img/x-icon.svg" alt="X icon." />
+              </a>
+            </div>
+            <div class="icon is-large">
+              <a href="#">
+                <img
+                  src="/assets/img/instagram-icon.svg"
+                  alt="Instagram icon."
+                />
+              </a>
+            </div>
+            <div class="icon is-large">
+              <a href="#">
+                <img src="/assets/img/whatsapp-icon.svg" alt="Whatsapp icon." />
+              </a>
+            </div>
+            <div class="icon is-large">
+              <a href="#">
+                <img src="/assets/img/skype-icon.svg" alt="Skype icon." />
+              </a>
+            </div>
+            <div class="icon is-large">
+              <a href="#">
+                <img src="/assets/img/linkedin-icon.svg" alt="LinkedIn icon." />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="px-4 is-flex is-flex-direction-column has-flex-gap-2">
+          <p class="is-size-3 pb-0 has-text-white has-text-weight-normal">
+            Payment Methods
+          </p>
+          <div class="is-flex has-flex-gap-2">
+            <div class="icon is-large">
+              <a href="#">
+                <img src="/assets/img/payoneer-icon.svg" alt="Payoneer icon." />
+              </a>
+            </div>
+            <div class="icon is-large">
+              <a href="#">
+                <img src="/assets/img/paypal-icon.svg" alt="Paypal icon." />
+              </a>
+            </div>
+            <div class="icon is-large">
+              <a href="#">
+                <img
+                  src="/assets/img/mastercard-icon.svg"
+                  alt="Mastercard icon."
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="px-2 py-4" style="background-color: #5e5e5e">
+        <p class="is-size-6 has-text-centered has-text-white">
+          <small>Copyright 2024 All Rights Reserved.</small>
+        </p>
+      </div>
+    </footer>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

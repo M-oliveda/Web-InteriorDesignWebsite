@@ -1,0 +1,32 @@
+$primary-color: #1473e2;
+$body-color: #414840;
+
+@use "bulma/sass/utilities"
+  with($family-primary: "'Inter',sans-serif", $primary: $primary-color);
+
+@forward "bulma/sass/themes";
+@forward "bulma/sass/base";
+@forward "bulma/sass/components/navbar";
+@forward "bulma/sass/layout/container";
+@forward "bulma/sass/elements/button";
+@forward "bulma/sass/layout/section";
+@forward "bulma/sass/components/breadcrumb";
+@forward "bulma/sass/elements/image";
+@forward "bulma/sass/grid/";
+@forward "bulma/sass/elements/title";
+@forward "bulma/sass/helpers/typography";
+@forward "bulma/sass/helpers/visibility";
+@forward "bulma/sass/helpers/flexbox";
+@forward "bulma/sass/elements/icon";
+@forward "bulma/sass/helpers/spacing";
+@forward "bulma/sass/helpers/color";
+@forward "bulma/sass/components/card";
+@forward "bulma/sass/elements/content";
+
+// Custom SASS styles:
+@forward "./generic";
+@forward "./website-hero";
+@forward "./website-features";
+@forward "./website-footer";
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
